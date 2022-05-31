@@ -16,7 +16,7 @@ public class Class1Objects {
 		JSONObject jo = (JSONObject)obj;
 		Object objdata= jo.get("data");
 		System.out.println(objdata);
-		
+		System.out.println("kiki");
 		Object objsupport = jo.get("support");
 		System.out.println(objsupport);
 		
